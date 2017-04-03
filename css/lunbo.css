@@ -1,0 +1,309 @@
+#allControl{
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+.carousel-control{
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    background-color: black;
+    margin-top: 180px;
+    display: none;
+}
+/*轮播图里面的菜单栏*/
+.allControl-list{
+    height: 413px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.list-left>ul{
+    display: inline-block;
+    width: 200px;
+    height: 413px;
+    background-color: black;
+    opacity: 0.8 ;
+    padding-top: 6px;
+    margin: 0;
+}
+.list-left li>a{
+    padding: 0px 20px;
+    width: 200px;
+    display:block;
+    height: 40px;
+    line-height: 40px;
+    color: white;
+}
+
+.list-left ul ul {
+    width: 400px;
+    height: 413px;
+    position: absolute;
+    top: 0;
+    left: 200px;
+    display: none;
+    background-color: white;
+    box-shadow: 0px 0px 0.5px gray;
+    padding: 20px;
+    margin: 0;
+}
+.list-left a>span{
+    float: right;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+/*第一个轮播图下的图片*/
+#control-down{
+    width: 1100px;
+    margin:20px auto;
+    display: flex;
+}
+#control-down>div{
+    width: 240px;
+    height: 150px;
+    background-color: RGB(95,87,80);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+#control-down section{
+    width: 60px;
+    height: 60px;
+    line-height: 25px;
+    position: relative;
+    margin: 10px;
+    display: inline-block;
+    background-color:RGB(100,100,80) ;
+  }
+#control-down span{
+     margin-left: 20px;
+ }
+#control-down>div>span{
+    width: 1px;
+    height: 30px;
+    background-color: gray ;
+    position: absolute;
+    left: 0px;
+
+}
+#control-down figure{
+    float: left;
+    color: lightgray;
+}
+#control-down figure:hover{
+    color: white;
+}
+#control-down>img{
+    width: 272px;
+    height: 150px;
+    margin: 0px 0px 0px 14px;
+}
+/******************明星单品***********/
+h2{
+    margin: 0;
+    padding-top: 20px;
+    font-size: 20px;
+    /*float: left;*/
+}
+#mi-superStar{
+    width: 1100px;
+    margin: 50px auto;
+
+}
+.mi-superStar-img{
+    display: flex;
+   justify-content: space-between;
+}
+.mi-superStar-img>div{
+     width: 210px;
+     height: 250px;
+    background-color: RGB(250,250,250);
+ }
+.mi-superStar-img figure>img{
+    width: 150px;
+    height: 150px;
+}
+.sectionEle{
+    width: 100%;
+    height: 30px;
+}
+.sectionEle>section{
+    color: darkgrey;
+    font-size: 20px;
+    text-align: center;
+    width: 40px;
+    height: 20px;
+    line-height: 20px;
+    border: 1px solid lightgray;
+    float: right;
+}
+.mi-superStar-img img{
+   margin: 20px 20px 20px 30px;
+}
+.mi-superStar-img figcaption{
+    text-align: center;
+    font-size: 12px;
+}
+
+/*全部种类单品*/
+#all{
+    width: 100%;
+    background-color: RGB(250,250,250);
+}
+/*智能硬件*/
+.mi-allKinds{
+    width: 1100px;
+    margin: auto;
+}
+.floatEle{
+    height: 90px;
+  }
+.floatEle>h2{
+    display: inline-block;
+    padding: 0;
+    margin-top: 50px;
+}
+.floatEle section{
+    float: right;
+   font-size: 12px;
+    margin-top: 50px;
+}
+.floatEle section>section{
+    width: 20px;
+    height: 20px;
+    background-color: gray;
+    border-radius: 50%;
+    text-align: center;
+    margin-left: 20px;
+    color: white;
+    margin-top: 0;
+}
+.zhiNeng{
+    width: 100%;
+    display: flex;
+}
+.zhiNeng>img{
+    width: 20%;
+    height: 605px;
+}
+.allKinds-right{
+    width: 80%;
+    height: 614px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.allKinds-right>figure{
+    width: 205px;
+    height: 300px;
+    background-color: white;
+    margin: 0px 0px 0px 15px;
+}
+.allKinds-right>figure>img{
+    width:  80%;
+    height: 200px;
+    margin: 10px 0px 10px 20px;
+}
+.allKinds-right>figure>figcaption{
+    text-align: center;
+    padding: 10px;
+}
+.allKinds-right figcaption:nth-of-type(2){
+    color: gray;
+}
+.allKinds-right figcaption:nth-of-type(3){
+    color: orange;
+}
+.allKinds-right>figure:hover{
+     box-shadow: 0px 15px 30px rgba(0,0,0,0.1);
+     transform: translate3d(0,-5px,0);
+ }
+.zhiNeng>img:hover{
+    box-shadow: 0px 15px 30px rgba(0,0,0,0.1);
+    transform: translate3d(0,-5px,0);
+}
+/*搭配*/
+.mi-dapei{
+    margin: 10px 0px 20px 0px;
+    overflow: hidden;
+}
+    .mi-aEle {
+        overflow: hidden;
+    }
+/*搭配里的图片*/
+.mi-dapei-imgEle-left{
+    width: 20%;
+    float: left;
+}
+.mi-dapei-imgEle-left>img{
+    width: 100%;
+    height: 300px;
+        }
+.mi-dapei-imgEle-left>img:nth-of-type(1){
+margin-bottom: 15px;
+}
+.mi-dapei-aEle{
+    float: right;
+}
+.mi-dapei-aEle ul ul{
+    margin: 5px;
+    /*background-color: #2aabd2;*/
+    float: right;
+}
+/*变幻的图片*/
+.mi-dapei-aEle ul ul>li{
+     position: absolute;
+    left: 26%;
+    width: 870px;
+    display: flex;
+    height: 310px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    }
+
+.selected{
+    color:orange !important;
+  border-bottom: 2px solid orange;
+}
+.mi-dapei-aEle ul ul>li>a{
+      width: 200px;
+      height: 300px;
+      background-color: white;
+      margin: 0px 0px 17.5px 17.5px;
+    /*display: none;*/
+  }
+.mi-dapei-aEle  ul>li>a:hover{
+    box-shadow: 0px 15px 30px rgba(0,0,0,0.1);
+    transform: translate3d(0,-5px,0);
+    text-decoration: none;
+}
+.mi-dapei-imgEle-left>img:hover{
+    box-shadow: 0px 15px 30px rgba(0,0,0,0.1);
+    transform: translate3d(0,-5px,0);
+}
+.mi-dapei-aEle ul ul>li img{
+      width: 150px;
+    height: 200px;
+    margin: 20px 0px 0px 25px;
+
+}
+.mi-dapei-aEle figcaption{
+    text-align: center;
+    padding: 10px 0px;
+
+}
+.mi-dapei-aEle figcaption:nth-of-type(2){
+   color: orange;
+}
+.mi-dapei-aEle figcaption:nth-of-type(3){
+    color: gray;
+}
+/*所有的a标签*/
+figcaption{
+     font-size:12px !important;
+    /*text-align: center;*/
+}
